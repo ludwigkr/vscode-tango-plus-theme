@@ -27,3 +27,9 @@ A high contrast light theme for vscode. A port of tmalsburg's [tango-plus-theme]
 	}
 
 **Enjoy!**
+
+## Publishing new versions
+1. Login to https://dev.azure.com/{Your_Organization}
+2. Create new access token
+3. Use access token to login in: `vsce login`
+4. Publish: `vsce publish`
