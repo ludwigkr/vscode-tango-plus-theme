@@ -2,7 +2,7 @@
     "name": "emacs-tango-plus",
     "displayName": "tango-plus",
     "description": "tango-plus",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "publisher": "ludwigkr",
     "repository": {
         "type" : "git",
@@ -11,6 +11,7 @@
     "keywords": [
         "theme",
         "light theme",
+        "light",
         "ludwigkr",
         "tmalsburg",
         "high contrast"
@@ -31,6 +32,6 @@
         ]
     },
     "dependencies": {
-        "vsce": "^2.9.1"
+        "vsce": "^2.15.0"
     }
 }
