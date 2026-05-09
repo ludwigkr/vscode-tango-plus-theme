@@ -1,0 +1,5 @@
+
+#+begin_src sh
+docker run --rm -v "$PWD:/app" tango-plus-builder sh -lc "npm install && npx @vscode/vsce package"
+docker compose run --rm vscode-theme-builder
+#+end_src
